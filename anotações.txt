@@ -1,0 +1,28 @@
+-- Iniciar o projeto
+npm init -y
+
+-- Instalar o express
+npm i --save express
+
+-- Configurar o git para ignorar a pasta node_modules
+Criar o arquivo .gitignore na raiz do projeto
+escrever a linha "node_modules"
+
+-- Instalar nodemon - utilizado em desenvolvimento para testar a solução
+npm i --save-dev nodemon
+
+comando rs reinicia a aplicação
+
+-- Instalar pm2 - utilizado para produção
+npm i --save pm2
+Instalar de forma global
+npm i -g pm2
+pm2 status
+pm2 show 0
+pm2 restart 0
+pm2 restart appx-backend
+pm2 stop 0   
+pm2 kill
+
+--Instalar body parser
+npm i --save --body-parser   
